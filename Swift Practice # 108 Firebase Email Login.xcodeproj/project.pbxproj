@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4B3F3527343640002F0FFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B3F3427343640002F0FFF /* LoginViewController.swift */; };
+		2D4B3F3727343652002F0FFF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B3F3627343652002F0FFF /* SignInViewController.swift */; };
+		2D4B3F3927343671002F0FFF /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B3F3827343671002F0FFF /* LoginSuccessViewController.swift */; };
+		2D4B3F3B2734367D002F0FFF /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B3F3A2734367D002F0FFF /* ChangePasswordViewController.swift */; };
+		2D4B3F3D2734382B002F0FFF /* Use To Everywhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B3F3C2734382B002F0FFF /* Use To Everywhere.swift */; };
 		2D9B15E0273424E2003164CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B15DF273424E2003164CD /* AppDelegate.swift */; };
 		2D9B15E2273424E2003164CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B15E1273424E2003164CD /* SceneDelegate.swift */; };
-		2D9B15E4273424E2003164CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B15E3273424E2003164CD /* ViewController.swift */; };
 		2D9B15E7273424E2003164CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B15E5273424E2003164CD /* Main.storyboard */; };
 		2D9B15E9273424E3003164CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B15E8273424E3003164CD /* Assets.xcassets */; };
 		2D9B15EC273424E3003164CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B15EA273424E3003164CD /* LaunchScreen.storyboard */; };
+		2D9B15F427342513003164CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B15F327342513003164CD /* GoogleService-Info.plist */; };
+		EE849FDBB6ACFE3D43E228D4 /* Pods_Swift_Practice___108_Firebase_Email_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D57945C6E8A088A206D1B2 /* Pods_Swift_Practice___108_Firebase_Email_Login.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4B3F3427343640002F0FFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D4B3F3627343652002F0FFF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2D4B3F3827343671002F0FFF /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
+		2D4B3F3A2734367D002F0FFF /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		2D4B3F3C2734382B002F0FFF /* Use To Everywhere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Use To Everywhere.swift"; sourceTree = "<group>"; };
 		2D9B15DC273424E2003164CD /* Swift Practice # 108 Firebase Email Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 108 Firebase Email Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9B15DF273424E2003164CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9B15E1273424E2003164CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D9B15E3273424E2003164CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D9B15E6273424E2003164CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9B15E8273424E3003164CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9B15EB273424E3003164CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9B15ED273424E3003164CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9B15F327342513003164CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36CBF63681634FF2EE7D4066 /* Pods-Swift Practice # 108 Firebase Email Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Practice # 108 Firebase Email Login.release.xcconfig"; path = "Target Support Files/Pods-Swift Practice # 108 Firebase Email Login/Pods-Swift Practice # 108 Firebase Email Login.release.xcconfig"; sourceTree = "<group>"; };
+		40D57945C6E8A088A206D1B2 /* Pods_Swift_Practice___108_Firebase_Email_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Swift_Practice___108_Firebase_Email_Login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CB37E98ECD0F07A7BEAE1E /* Pods-Swift Practice # 108 Firebase Email Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Practice # 108 Firebase Email Login.debug.xcconfig"; path = "Target Support Files/Pods-Swift Practice # 108 Firebase Email Login/Pods-Swift Practice # 108 Firebase Email Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE849FDBB6ACFE3D43E228D4 /* Pods_Swift_Practice___108_Firebase_Email_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210B2A1E4D91E4190A7DC2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D57945C6E8A088A206D1B2 /* Pods_Swift_Practice___108_Firebase_Email_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4B3F3027343527002F0FFF /* Login Page 登入頁 */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B3F3427343640002F0FFF /* LoginViewController.swift */,
+			);
+			path = "Login Page 登入頁";
+			sourceTree = "<group>";
+		};
+		2D4B3F312734353A002F0FFF /* User Page 登入成功頁 */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B3F3827343671002F0FFF /* LoginSuccessViewController.swift */,
+			);
+			path = "User Page 登入成功頁";
+			sourceTree = "<group>";
+		};
+		2D4B3F322734355E002F0FFF /* Sign In Page 註冊頁 */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B3F3627343652002F0FFF /* SignInViewController.swift */,
+			);
+			path = "Sign In Page 註冊頁";
+			sourceTree = "<group>";
+		};
+		2D4B3F3327343571002F0FFF /* Password Change Page 改密碼頁 */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B3F3A2734367D002F0FFF /* ChangePasswordViewController.swift */,
+			);
+			path = "Password Change Page 改密碼頁";
+			sourceTree = "<group>";
+		};
+		2D4B3F3E27343AF6002F0FFF /* Use In Every Page */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B3F3C2734382B002F0FFF /* Use To Everywhere.swift */,
+			);
+			path = "Use In Every Page";
+			sourceTree = "<group>";
+		};
 		2D9B15D3273424E2003164CD = {
 			isa = PBXGroup;
 			children = (
 				2D9B15DE273424E2003164CD /* Swift Practice # 108 Firebase Email Login */,
 				2D9B15DD273424E2003164CD /* Products */,
+				5496813A380BB67BFE1CC0C1 /* Pods */,
+				210B2A1E4D91E4190A7DC2D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +121,29 @@
 		2D9B15DE273424E2003164CD /* Swift Practice # 108 Firebase Email Login */ = {
 			isa = PBXGroup;
 			children = (
+				2D4B3F3E27343AF6002F0FFF /* Use In Every Page */,
+				2D4B3F3027343527002F0FFF /* Login Page 登入頁 */,
+				2D4B3F322734355E002F0FFF /* Sign In Page 註冊頁 */,
+				2D4B3F312734353A002F0FFF /* User Page 登入成功頁 */,
+				2D4B3F3327343571002F0FFF /* Password Change Page 改密碼頁 */,
 				2D9B15DF273424E2003164CD /* AppDelegate.swift */,
 				2D9B15E1273424E2003164CD /* SceneDelegate.swift */,
-				2D9B15E3273424E2003164CD /* ViewController.swift */,
 				2D9B15E5273424E2003164CD /* Main.storyboard */,
 				2D9B15E8273424E3003164CD /* Assets.xcassets */,
 				2D9B15EA273424E3003164CD /* LaunchScreen.storyboard */,
 				2D9B15ED273424E3003164CD /* Info.plist */,
+				2D9B15F327342513003164CD /* GoogleService-Info.plist */,
 			);
 			path = "Swift Practice # 108 Firebase Email Login";
+			sourceTree = "<group>";
+		};
+		5496813A380BB67BFE1CC0C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB37E98ECD0F07A7BEAE1E /* Pods-Swift Practice # 108 Firebase Email Login.debug.xcconfig */,
+				36CBF63681634FF2EE7D4066 /* Pods-Swift Practice # 108 Firebase Email Login.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D9B15F0273424E3003164CD /* Build configuration list for PBXNativeTarget "Swift Practice # 108 Firebase Email Login" */;
 			buildPhases = (
+				EFD9427CA9595EBE62A0532C /* [CP] Check Pods Manifest.lock */,
 				2D9B15D8273424E2003164CD /* Sources */,
 				2D9B15D9273424E2003164CD /* Frameworks */,
 				2D9B15DA273424E2003164CD /* Resources */,
+				0ADB4A398B1C9841923331D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9B15EC273424E3003164CD /* LaunchScreen.storyboard in Resources */,
+				2D9B15F427342513003164CD /* GoogleService-Info.plist in Resources */,
 				2D9B15E9273424E3003164CD /* Assets.xcassets in Resources */,
 				2D9B15E7273424E2003164CD /* Main.storyboard in Resources */,
 			);
@@ -132,12 +214,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ADB4A398B1C9841923331D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift Practice # 108 Firebase Email Login/Pods-Swift Practice # 108 Firebase Email Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift Practice # 108 Firebase Email Login/Pods-Swift Practice # 108 Firebase Email Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift Practice # 108 Firebase Email Login/Pods-Swift Practice # 108 Firebase Email Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD9427CA9595EBE62A0532C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift Practice # 108 Firebase Email Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D9B15D8273424E2003164CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9B15E4273424E2003164CD /* ViewController.swift in Sources */,
+				2D4B3F3727343652002F0FFF /* SignInViewController.swift in Sources */,
+				2D4B3F3527343640002F0FFF /* LoginViewController.swift in Sources */,
+				2D4B3F3D2734382B002F0FFF /* Use To Everywhere.swift in Sources */,
+				2D4B3F3927343671002F0FFF /* LoginSuccessViewController.swift in Sources */,
+				2D4B3F3B2734367D002F0FFF /* ChangePasswordViewController.swift in Sources */,
 				2D9B15E0273424E2003164CD /* AppDelegate.swift in Sources */,
 				2D9B15E2273424E2003164CD /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +411,7 @@
 		};
 		2D9B15F1273424E3003164CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CB37E98ECD0F07A7BEAE1E /* Pods-Swift Practice # 108 Firebase Email Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +431,7 @@
 		};
 		2D9B15F2273424E3003164CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CBF63681634FF2EE7D4066 /* Pods-Swift Practice # 108 Firebase Email Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

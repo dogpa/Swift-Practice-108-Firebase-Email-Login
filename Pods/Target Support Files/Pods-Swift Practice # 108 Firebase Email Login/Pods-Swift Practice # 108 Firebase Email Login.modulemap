@@ -1,0 +1,6 @@
+framework module Pods_Swift_Practice___108_Firebase_Email_Login {
+  umbrella header "Pods-Swift Practice # 108 Firebase Email Login-umbrella.h"
+
+  export *
+  module * { export * }
+}
